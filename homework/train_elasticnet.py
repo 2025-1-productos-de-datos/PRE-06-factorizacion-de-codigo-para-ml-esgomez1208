@@ -16,7 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from homework.src._internals.calculate_metrics import calculate_metrics
 from homework.src._internals.prepare_data import prepare_data
 from homework.src._internals.print_metrics import print_metrics
-from homework.src._internals.save_mode_if_better import save_model_if_better
+from homework.src._internals.save_model_if_better import save_model_if_better
 
 x_train, x_test, y_train, y_test = prepare_data(
     file_path="data/winequality-red.csv",
